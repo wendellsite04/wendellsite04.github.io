@@ -1,0 +1,693 @@
+body {
+  margin: 0;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  font-size: 12px;
+  font-family: "Fira-Sans" , sans-serif, Arial;
+  letter-spacing: 0px;
+  color: #2F4F4F;
+  background: #F0F0F0;
+  padding-bottom: 5px;
+}
+
+body a {
+  text-decoration: none;
+  color: #2F4F4F;
+}
+
+.header-container {
+  width: 100%;
+  background: #0074D9;
+  padding: 5px 0px;
+  text-align: center;
+  margin-top: 3px;
+  border: 1px solid #D3D3D3;
+}
+
+.header-nav {
+  color: white;
+  margin: 0px 5px;
+  transition: all 0.1s ease-in-out;
+}
+
+.header-nav:hover {
+  color: #333333;
+}
+
+.otherwork-container {
+  width: 100%;
+  background: white;
+  border: 1px solid #D3D3D3;
+  margin-top: 3px;
+  padding-bottom: 5px;
+}
+
+.otherwork-othercontainer {
+  width: 820px;
+  margin: 0 auto;
+}
+
+.otherwork-leftimage, .otherwork-rightimage {
+  width: 219px;
+  height: 370px;
+  background: url("../04 img/00 global/99 footer/leftimage.png");
+  background-size: cover;
+  background-position: center;
+  float: left;
+  margin-top: -55px;
+  margin-right: -70px;
+}
+
+.otherwork-rightimage {
+  margin-right: 0px;
+  margin-left: -70px;
+  background: url("../04 img/00 global/99 footer/rightimage.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.otherwork-othercontentcontainer {
+  width: 522px;
+  margin: 0 auto;
+  float: left;
+}
+
+.otherwork-othercontentcontainer-message {
+  width: 450px;
+  text-align: center;
+  padding: 5px 0px;
+  margin: 0 auto;
+}
+
+.otherwork-othercontentcontainer-big {
+  font-size: 15px;
+}
+
+.otherwork-othercontentcontainer-workscontainer {
+  width: 500px;
+}
+
+.otherwork-othercontentcontainer-work {
+  margin: 0 auto;
+  margin-bottom: 5px;
+  width: 520px;
+  background: #85144B;
+  border: 1px solid #D3D3D3;
+  text-align: center;
+  padding: 34px 0px;
+}
+
+.otherwork-othercontentcontainer-work a {
+  background: white;
+  padding: 2px 5px;
+  border: 1px solid #D3D3D3;
+  transition: all 0.1s ease-in-out;
+}
+
+.otherwork-othercontentcontainer-work a:hover {
+  background: #0074D9;
+  color: white;
+}
+
+.otherwork01 {
+  background: url("../04 img/00 global/99 footer/otherwork01.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.otherwork02 {
+  background: url("../04 img/00 global/99 footer/otherwork02.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.otherwork03 {
+  background: url("../04 img/00 global/99 footer/otherwork03.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-container {
+  text-align: center;
+  width: 100%;
+  background: white;
+  margin-top: 3px;
+  border: 1px solid #D3D3D3;
+  padding: 5px 0px;
+}
+
+.hero-intro {
+  margin-bottom: 3px;
+}
+
+.hero-image {
+  height: 120px;
+  width: 120px;
+  background: url("../04 img/00 global/99 footer/heroimage.png");
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto;
+  margin-bottom: 3px;
+}
+
+.hero-email a {
+  color: #0074D9;
+  transition: all 0.1s ease-in-out;
+}
+
+.hero-email a:hover {
+  color: #FFDC00;
+}
+
+.social-container {
+  width: 100%;
+  background: #0074D9;
+  border: 1px solid #D3D3D3;
+  margin-top: 3px;
+  padding-top: 5px;
+  padding-bottom: 2px;
+}
+
+.social-centering {
+  width: 315px;
+  margin: 0 auto;
+}
+
+.social-social {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  background: #0074D9;
+  margin: 0px 10px;
+  transition: all 0.1s ease-in-out;
+}
+
+.social-social:hover {
+  transform: scale(1.1);
+}
+
+.footersocial01 {
+  background: url("../04 img/00 global/99 footer/footersocial01.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.footersocial02 {
+  background: url("../04 img/00 global/99 footer/footersocial02.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.footersocial03 {
+  background: url("../04 img/00 global/99 footer/footersocial03.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.footersocial04 {
+  background: url("../04 img/00 global/99 footer/footersocial04.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.footersocial05 {
+  background: url("../04 img/00 global/99 footer/footersocial05.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.footersocial06 {
+  background: url("../04 img/00 global/99 footer/footersocial06.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.footersocial07 {
+  background: url("../04 img/00 global/99 footer/footersocial07.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.opener-container {
+  width: 100%;
+  background: white;
+  border-top: 1px solid #D3D3D3;
+  border-bottom: 1px solid #D3D3D3;
+  margin-top: 3px;
+  padding: 20px 0px;
+}
+
+.opener-centering {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.opener-welcome {
+  text-align: center;
+}
+
+.opener-welcome-big {
+  font-size: 16px;
+}
+
+.opener-welcome-small {
+  font-size: 13px;
+}
+
+.heroopener-container {
+  background: white;
+  padding: 5px 0px;
+  border-bottom: 1px solid #D3D3D3;
+}
+
+.heroopener-heroimage {
+  width: 520px;
+  height: 260px;
+  margin: 0 auto;
+  background: url("../04 img/01 home/03 hero/me.jpg");
+  background-size: cover;
+  background-position: center;
+  border: 1px solid #D3D3D3;
+}
+
+.superhero-container {
+  width: 100%;
+  background: white;
+  border: 1px solid #D3D3D3;
+  margin-top: 3px;
+  text-align: center;
+  font-size: 15px;
+  padding: 5px 0px;
+}
+
+.superpagination-container {
+  width: 100%;
+  background: #0074D9;
+  border: 1px solid #D3D3D3;
+  margin-top: 3px;
+  padding: 5px 0px;
+}
+
+.superpagination-centering {
+  width: 200px;
+  margin: 0 auto;
+}
+
+.superpagination-nav {
+  display: inline-block;
+  background: white;
+  padding: 1px 2px;
+  margin: 0px 1px;
+  border: 1px solid #D3D3D3;
+  transition: all 0.1s ease-in-out;
+}
+
+.superpagination-nav:hover {
+  background: #0074D9;
+  color: white;
+}
+
+.anilist-container {
+  width: 100%;
+  background: white;
+  border: 1px solid #D3D3D3;
+  margin-top: 3px;
+  padding-bottom: 5px;
+}
+
+.anilist-background {
+  width: 520px;
+  border: 1px solid #D3D3D3;
+  margin: 0 auto;
+  margin-top: 5px;
+  text-align: center;
+  padding-top: 11px;
+  padding-bottom: 26px;
+}
+
+.anilist-listtitle {
+  background: white;
+  border: 1px solid #D3D3D3;
+  padding: 1px 5px;
+  font-size: 13px;
+  transition: all 0.1s ease-in-out;
+}
+
+.anilist-listtitle:hover {
+  background: #0074D9;
+  color: white;
+}
+
+.anilist-checkout {
+  color: white;
+}
+
+.anilist-myanimelogo, .anilist-steamlogo, .anilist-pslogo {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background: url("../04 img/02 superlist/04 anilist logo/myanimelist.png");
+  background-size: cover;
+  background-position: center;
+  margin: 0px 2px;
+  margin-top: 5px;
+  border: 1px solid #D3D3D3;
+  width: 100px;
+  height: 25px;
+  transition: all 0.1s ease-in-out;
+}
+
+.anilist-myanimelogo:hover, .anilist-steamlogo:hover, .anilist-pslogo:hover {
+  border: 1px solid #333333;
+}
+
+.anilist-steamlogo {
+  background: url("../04 img/02 superlist/04 anilist logo/steam.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.anilist-pslogo {
+  background: url("../04 img/02 superlist/04 anilist logo/ps.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.andyouthoughtthereisneveragirlonline {
+  background: url("../04 img/02 superlist/04 anilist bg/andyouthoughtthereisneveragirlonline.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.chuunibyoudemokoigashitai {
+  background: url("../04 img/02 superlist/04 anilist bg/chuunibyoudemokoigashitai.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.dailylivesofhighschoolboys {
+  background: url("../04 img/02 superlist/04 anilist bg/dailylivesofhighschoolboys.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.deathnote {
+  background: url("../04 img/02 superlist/04 anilist bg/deathnote.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.fullmetalalchemistbrotherhood {
+  background: url("../04 img/02 superlist/04 anilist bg/fullmetalalchemistbrotherhood.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.hunterxhunter2011 {
+  background: url("../04 img/02 superlist/04 anilist bg/hunterxhunter2011.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.konosuba {
+  background: url("../04 img/02 superlist/04 anilist bg/konosuba.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.monogatariseries {
+  background: url("../04 img/02 superlist/04 anilist bg/monogatariseries.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.oneouts {
+  background: url("../04 img/02 superlist/04 anilist bg/oneouts.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.onepunchman {
+  background: url("../04 img/02 superlist/04 anilist bg/onepunchman.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.prisonschool {
+  background: url("../04 img/02 superlist/04 anilist bg/prisonschool.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.thedevilisaparttimer {
+  background: url("../04 img/02 superlist/04 anilist bg/thedevilisaparttimer.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.working {
+  background: url("../04 img/02 superlist/04 anilist bg/working.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.yondemasuasazelsan {
+  background: url("../04 img/02 superlist/04 anilist bg/yondemasuasazelsan.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.blogtitle-container {
+  width: 100%;
+  background: white;
+  border-top: 1px solid #D3D3D3;
+  margin-top: 3px;
+  text-align: center;
+  padding: 3px 0px;
+}
+
+.blogtitle-title {
+  font-size: 15px;
+  margin-top: 3px;
+}
+
+.blogcontent-container {
+  width: 100%;
+  background: white;
+  border-bottom: 1px solid #D3D3D3;
+  padding: 5px 0px;
+}
+
+.blogcontent-content {
+  display: block;
+  width: 520px;
+  margin: 0 auto;
+  border: 1px solid #D3D3D3;
+}
+
+.teamtitle-container {
+  width: 100%;
+  background: white;
+  border-top: 1px solid #D3D3D3;
+  margin-top: 3px;
+  text-align: center;
+  padding: 5px 0px;
+}
+
+.teamtitle-title {
+  font-size: 15px;
+}
+
+.teamcontent-container {
+  width: 100%;
+  background: white;
+  border-bottom: 1px solid #D3D3D3;
+  padding-bottom: 5px;
+}
+
+.teamcontent-content {
+  display: block;
+  width: 600px;
+  margin: 0 auto;
+  border: 1px solid #D3D3D3;
+}
+
+.contacts-container {
+  width: 100%;
+  background: white;
+  border: 1px solid #D3D3D3;
+  margin-top: 3px;
+  text-align: center;
+  padding: 20px 0px;
+  font-size: 17px;
+}
+
+.animehero-container {
+  width: 100%;
+  background: white;
+  border-top: 1px solid #D3D3D3;
+  padding: 5px 0px;
+  margin-top: 3px;
+}
+
+.animehero-image {
+  width: 520px;
+  height: 90px;
+  background: #0074D9;
+  border: 1px solid #D3D3D3;
+  margin: 0 auto;
+}
+
+.andyouthoughtthereisneveragirlonlineanimehero {
+  background: url("../04 img/02 superlist/04 anilist bg/andyouthoughtthereisneveragirlonline.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.chuunibyoudemokoigashitaianimehero {
+  background: url("../04 img/02 superlist/04 anilist bg/chuunibyoudemokoigashitai.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.dailylivesofhighschoolboysanimhero {
+  background: url("../04 img/02 superlist/04 anilist bg/dailylivesofhighschoolboys.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.deathnoteanimehero {
+  background: url("../04 img/02 superlist/04 anilist bg/deathnote.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.fullmetalalchemistbrotherhoodanimehero {
+  background: url("../04 img/02 superlist/04 anilist bg/fullmetalalchemistbrotherhood.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.hunterxhunter2011animehero {
+  background: url("../04 img/02 superlist/04 anilist bg/hunterxhunter2011.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.konosubaanimehero {
+  background: url("../04 img/02 superlist/04 anilist bg/konosuba.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.monogatariseriesanimehero {
+  background: url("../04 img/02 superlist/04 anilist bg/monogatariseries.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.oneoutsanimehero {
+  background: url("../04 img/02 superlist/04 anilist bg/oneouts.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.onepunchmananimehero {
+  background: url("../04 img/02 superlist/04 anilist bg/onepunchman.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.prisonschoolanimehero {
+  background: url("../04 img/02 superlist/04 anilist bg/prisonschool.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.thedevilisaparttimeranimehero {
+  background: url("../04 img/02 superlist/04 anilist bg/thedevilisaparttimer.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.workinganimehero {
+  background: url("../04 img/02 superlist/04 anilist bg/working.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.yondemasuasazelsananimehero {
+  background: url("../04 img/02 superlist/04 anilist bg/yondemasuasazelsan.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.info-container {
+  width: 100%;
+  background: white;
+  border-bottom: 1px solid #D3D3D3;
+  padding-bottom: 5px;
+}
+
+.info-detailcentering {
+  width: 520px;
+  margin: 0 auto;
+}
+
+.info-detail span {
+  font-weight: bold;
+  color: #0074D9;
+}
+
+.summary-container {
+  width: 100%;
+  background: white;
+  border: 1px solid #D3D3D3;
+  margin-top: 3px;
+  padding: 5px 0px;
+}
+
+.summary-centering {
+  width: 520px;
+  margin: 0 auto;
+  text-align: justify;
+}
+
+.summary-centering span {
+  font-weight: bold;
+  color: #0074D9;
+}
+
+.rating-container {
+  width: 100%;
+  background: white;
+  border: 1px solid #D3D3D3;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 3px;
+  margin-top: 3px;
+}
+
+.rating-container span {
+  font-weight: bold;
+  color: #0074D9;
+}
+
+#activenav {
+  color: #333333;
+}
+
+#activenav-bot {
+  color: #333333;
+}
+
+.clearfix:before {
+  content: " ";
+  display: table;
+}
+
+.clearfix:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
